@@ -115,8 +115,8 @@ CherrygroveRivalSceneNorth:
 	closetext
 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
 	iftrue .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftrue .Chikorita
+	checkevent EVENT_GOT_GLIGAR_FROM_ELM
+	iftrue .Gligar
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
 	loadtrainer RIVAL1, RIVAL1_1_TOTODILE
@@ -130,7 +130,7 @@ CherrygroveRivalSceneNorth:
 .Totodile:
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
-	loadtrainer RIVAL1, RIVAL1_1_CHIKORITA
+	loadtrainer RIVAL1, RIVAL1_1_GLIGAR
 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
 	dontrestartmapmusic
@@ -138,7 +138,7 @@ CherrygroveRivalSceneNorth:
 	iftrue .AfterVictorious
 	sjump .AfterYourDefeat
 
-.Chikorita:
+.Gligar:
 	winlosstext RivalCherrygroveWinText, RivalCherrygroveLossText
 	setlasttalked CHERRYGROVECITY_RIVAL
 	loadtrainer RIVAL1, RIVAL1_1_MISDREAVUS

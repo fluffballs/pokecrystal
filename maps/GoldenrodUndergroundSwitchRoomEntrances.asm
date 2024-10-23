@@ -169,8 +169,8 @@ UndergroundRivalBattleScript:
 	setevent EVENT_RIVAL_GOLDENROD_UNDERGROUND
 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
 	iftrue .Totodile
-	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftrue .Chikorita
+	checkevent EVENT_GOT_GLIGAR_FROM_ELM
+	iftrue .Gligar
 	winlosstext UndergroundRivalWinText, UndergroundRivalLossText
 	setlasttalked GOLDENRODUNDERGROUNDSWITCHROOMENTRANCES_RIVAL
 	loadtrainer RIVAL1, RIVAL1_4_TOTODILE
@@ -182,13 +182,13 @@ UndergroundRivalBattleScript:
 .Totodile:
 	winlosstext UndergroundRivalWinText, UndergroundRivalLossText
 	setlasttalked GOLDENRODUNDERGROUNDSWITCHROOMENTRANCES_RIVAL
-	loadtrainer RIVAL1, RIVAL1_4_CHIKORITA
+	loadtrainer RIVAL1, RIVAL1_4_GLIGAR
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	sjump .FinishRivalBattle
 
-.Chikorita:
+.Gligar:
 	winlosstext UndergroundRivalWinText, UndergroundRivalLossText
 	setlasttalked GOLDENRODUNDERGROUNDSWITCHROOMENTRANCES_RIVAL
 	loadtrainer RIVAL1, RIVAL1_4_MISDREAVUS
