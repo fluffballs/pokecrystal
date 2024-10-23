@@ -50,7 +50,7 @@ MountMoonRivalBattleScript:
 .Chikorita:
 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
 	setlasttalked MOUNTMOON_RIVAL
-	loadtrainer RIVAL2, RIVAL2_1_CYNDAQUIL
+	loadtrainer RIVAL2, RIVAL2_1_MISDREAVUS
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
