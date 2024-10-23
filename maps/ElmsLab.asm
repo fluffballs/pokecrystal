@@ -865,7 +865,7 @@ TakeMisdreavusText:
 TakeSneaselText:
 	text "ELM: Do you want"
 	line "SNEASEL, the"
-	cont "water #MON?"
+	cont "ice #MON?"
 	done
 
 TakeGligarText:
