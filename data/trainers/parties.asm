@@ -86,7 +86,7 @@ Rival1Group:
 
 	; RIVAL1 (3)
 	db "?@", TRAINERTYPE_NORMAL
-	db  5, TOTODILE
+	db  5, SNEASEL
 	db -1 ; end
 
 	; RIVAL1 (4)
@@ -208,7 +208,7 @@ PKMNTrainerGroup:
 	db "CAL@", TRAINERTYPE_NORMAL
 	db 10, GLIGAR
 	db 10, MISDREAVUS
-	db 10, TOTODILE
+	db 10, SNEASEL
 	db -1 ; end
 
 	; CAL (2)

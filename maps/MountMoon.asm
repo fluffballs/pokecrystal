@@ -26,19 +26,19 @@ MountMoonRivalBattleScript:
 	writetext MountMoonRivalTextBefore
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_TOTODILE_FROM_ELM
-	iftrue .Totodile
+	checkevent EVENT_GOT_SNEASEL_FROM_ELM
+	iftrue .Sneasel
 	checkevent EVENT_GOT_GLIGAR_FROM_ELM
 	iftrue .Gligar
 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
 	setlasttalked MOUNTMOON_RIVAL
-	loadtrainer RIVAL2, RIVAL2_1_TOTODILE
+	loadtrainer RIVAL2, RIVAL2_1_SNEASEL
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	sjump .FinishBattle
 
-.Totodile:
+.Sneasel:
 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
 	setlasttalked MOUNTMOON_RIVAL
 	loadtrainer RIVAL2, RIVAL2_1_GLIGAR
