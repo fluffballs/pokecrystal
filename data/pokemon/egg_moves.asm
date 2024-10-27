@@ -756,14 +756,6 @@ PhanpyEggMoves:
 	db WATER_GUN
 	db -1 ; end
 
-StantlerEggMoves:
-	db REFLECT
-	db SPITE
-	db DISABLE
-	db LIGHT_SCREEN
-	db BITE
-	db -1 ; end
-
 TyrogueEggMoves:
 	db RAPID_SPIN
 	db HI_JUMP_KICK

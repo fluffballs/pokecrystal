@@ -236,7 +236,7 @@ PokemonPicPointers::
 	dba_pics PhanpyFrontpic, PhanpyBackpic
 	dba_pics DonphanFrontpic, DonphanBackpic
 	dba_pics Porygon2Frontpic, Porygon2Backpic
-	dba_pics StantlerFrontpic, StantlerBackpic
+	dba_pics WeavileFrontpic, WeavileBackpic
 	dba_pics SmeargleFrontpic, SmeargleBackpic
 	dba_pics TyrogueFrontpic, TyrogueBackpic
 	dba_pics HitmontopFrontpic, HitmontopBackpic

@@ -233,7 +233,7 @@ BitmasksPointers:
 	dw PhanpyBitmasks
 	dw DonphanBitmasks
 	dw Porygon2Bitmasks
-	dw StantlerBitmasks
+	dw WeavileBitmasks
 	dw SmeargleBitmasks
 	dw TyrogueBitmasks
 	dw HitmontopBitmasks

@@ -2873,15 +2873,18 @@ HeracrossEvosAttacks:
 	db 0 ; no more level-up moves
 
 SneaselEvosAttacks:
+	db EVOLVE_LEVEL, 36, WEAVILE
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 9, QUICK_ATTACK
+	db 1, FORESIGHT
+	db 9, POWDER_SNOW
+	db 13, QUICK_ATTACK
 	db 17, SCREECH
 	db 25, FAINT_ATTACK
 	db 33, FURY_SWIPES
-	db 41, AGILITY
-	db 49, SLASH
+	db 41, ICE_PUNCH
+	db 49, CRUNCH
 	db 57, BEAT_UP
 	db 65, METAL_CLAW
 	db 0 ; no more level-up moves
@@ -3112,15 +3115,20 @@ Porygon2EvosAttacks:
 	db 44, ZAP_CANNON
 	db 0 ; no more level-up moves
 
-StantlerEvosAttacks:
+WeavileEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 8, LEER
-	db 15, HYPNOSIS
-	db 23, STOMP
-	db 31, SAND_ATTACK
-	db 40, TAKE_DOWN
-	db 49, CONFUSE_RAY
+	db 1, SCRATCH
+	db 1, LEER
+	db 1, FORESIGHT
+	db 9, POWDER_SNOW
+	db 13, QUICK_ATTACK
+	db 17, SCREECH
+	db 25, FAINT_ATTACK
+	db 33, FURY_SWIPES
+	db 41, ICE_PUNCH
+	db 49, CRUNCH
+	db 57, BEAT_UP
+	db 65, METAL_CLAW
 	db 0 ; no more level-up moves
 
 SmeargleEvosAttacks:

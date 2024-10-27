@@ -234,7 +234,7 @@ PokedexDataPointerTable:
 	dw PhanpyPokedexEntry
 	dw DonphanPokedexEntry
 	dw Porygon2PokedexEntry
-	dw StantlerPokedexEntry
+	dw WeavilePokedexEntry
 	dw SmearglePokedexEntry
 	dw TyroguePokedexEntry
 	dw HitmontopPokedexEntry

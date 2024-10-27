@@ -211,7 +211,6 @@ AlphabeticalPokedexOrder:
 	db SPEAROW
 	db SPINARAK
 	db SQUIRTLE
-	db STANTLER
 	db STARMIE
 	db STARYU
 	db STEELIX
@@ -243,6 +242,7 @@ AlphabeticalPokedexOrder:
 	db VOLTORB
 	db VULPIX
 	db WARTORTLE
+	db WEAVILE
 	db WEEDLE
 	db WEEPINBELL
 	db WEEZING

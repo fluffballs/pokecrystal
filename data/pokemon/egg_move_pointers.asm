@@ -233,7 +233,7 @@ EggMovePointers::
 	dw PhanpyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw StantlerEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw TyrogueEggMoves
 	dw NoEggMoves

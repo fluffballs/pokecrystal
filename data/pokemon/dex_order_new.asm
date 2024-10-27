@@ -130,7 +130,7 @@ NewPokedexOrder:
 	db NINETALES
 	db GROWLITHE
 	db ARCANINE
-	db STANTLER
+	db WEAVILE
 	db MARILL
 	db AZUMARILL
 	db DIGLETT

@@ -233,7 +233,7 @@ PokemonNames::
 	db "PHANPY@@@@"
 	db "DONPHAN@@@"
 	db "PORYGON2@@"
-	db "STANTLER@@"
+	db "WEAVILE@@@"
 	db "SMEARGLE@@"
 	db "TYROGUE@@@"
 	db "HITMONTOP@"

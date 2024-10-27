@@ -235,7 +235,7 @@ EvosAttacksPointers::
 	dw PhanpyEvosAttacks
 	dw DonphanEvosAttacks
 	dw Porygon2EvosAttacks
-	dw StantlerEvosAttacks
+	dw WeavileEvosAttacks
 	dw SmeargleEvosAttacks
 	dw TyrogueEvosAttacks
 	dw HitmontopEvosAttacks

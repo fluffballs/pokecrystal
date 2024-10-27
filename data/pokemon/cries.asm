@@ -239,7 +239,7 @@ PokemonCries::
 	mon_cry CRY_SENTRET,      72,  560 ; PHANPY
 	mon_cry CRY_DONPHAN,       0,  416 ; DONPHAN
 	mon_cry CRY_GIRAFARIG,   115,  576 ; PORYGON2
-	mon_cry CRY_AIPOM,      -352,  384 ; STANTLER
+	mon_cry CRY_WOOPER,       83,  175 ; WEAVILE
 	mon_cry CRY_PICHU,      -538,  496 ; SMEARGLE
 	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP

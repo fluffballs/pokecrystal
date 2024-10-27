@@ -233,7 +233,7 @@ AnimationPointers:
 	dw PhanpyAnimation
 	dw DonphanAnimation
 	dw Porygon2Animation
-	dw StantlerAnimation
+	dw WeavileAnimation
 	dw SmeargleAnimation
 	dw TyrogueAnimation
 	dw HitmontopAnimation

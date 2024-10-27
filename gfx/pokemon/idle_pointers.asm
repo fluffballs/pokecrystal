@@ -233,7 +233,7 @@ AnimationIdlePointers:
 	dw PhanpyAnimationIdle
 	dw DonphanAnimationIdle
 	dw Porygon2AnimationIdle
-	dw StantlerAnimationIdle
+	dw WeavileAnimationIdle
 	dw SmeargleAnimationIdle
 	dw TyrogueAnimationIdle
 	dw HitmontopAnimationIdle
